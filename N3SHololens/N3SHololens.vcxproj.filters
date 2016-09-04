@@ -102,11 +102,7 @@
     <None Include="..\Debug\mario.nes">
       <Filter>Content</Filter>
     </None>
-    <None Include="..\Debug\msvc-2010.dll">
-      <Filter>Content</Filter>
-    </None>
-    <None Include="..\msvc-2010\Release\msvc-2010.dll">
-      <Filter>Content</Filter>
-    </None>
+    <None Include="..\NesVoxel\Debug\msvc-2010.dll" />
+    <None Include="..\NesVoxel\Release\msvc-2010.dll" />
   </ItemGroup>
 </Project>
