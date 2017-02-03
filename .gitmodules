@@ -1,0 +1,3 @@
+[submodule "nestopia"]
+	path = nestopia
+	url = https://github.com/and0p/nestopia.git
