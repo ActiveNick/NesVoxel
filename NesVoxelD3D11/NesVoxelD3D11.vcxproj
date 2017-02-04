@@ -76,8 +76,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\and0\Source\Repos\NesVoxel\NesVoxelLib;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\and0\Source\Repos\NesVoxel\Hololens Release;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\NesVoxelLib;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\Hololens Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -91,7 +91,7 @@
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <FloatingPointModel>Fast</FloatingPointModel>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
-      <AdditionalIncludeDirectories>C:\Users\and0\Source\Repos\NesVoxel\NesVoxelLib;C:\Users\and0\Source\Repos\NesVoxel\NesVoxelD3D11\Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\NesVoxelLib;$(SolutionDir)\NesVoxelD3D11\Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
