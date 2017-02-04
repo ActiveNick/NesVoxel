@@ -119,12 +119,12 @@
     <None Include="..\Debug\mario.nes">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="..\NesVoxel\Debug\msvc-2010.dll">
+    <None Include="..\Debug\msvc-2010.dll">
       <DeploymentContent>true</DeploymentContent>
       <FileType>CppCode</FileType>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</DeploymentContent>
     </None>
-    <None Include="..\NesVoxel\Release\msvc-2010.dll">
+    <None Include="..\Release\msvc-2010.dll">
       <FileType>CppCode</FileType>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</DeploymentContent>
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</DeploymentContent>
