@@ -25,7 +25,9 @@ This particular project is a port of N3S which targets the Universal Windows Pla
 3. Open .sln => change build config to **Hololens Release / x86** => Build (note build error) 
 	<img src="/Assets/build.PNG">
 4. Supply missing mario.nes file into the directory indicated and rebuild the N3SHololens project
-5. Bask in the glory of 3-dimensional classic NES awesomeness
+5. Ensure that a value (ip address) is set for "Machine Name" in both the Release and Debug configuration (Right-Click NS3Hololense Project => Properties => Debugging):
+	<img src="/Assets/config.PNG">
+6. Bask in the glory of 3-dimensional classic NES awesomeness!
 
 ## Demonstration ##
 
